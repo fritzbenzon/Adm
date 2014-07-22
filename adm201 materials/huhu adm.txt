@@ -1,0 +1,154 @@
+**question/answer rephrased or not completely remembered
+
+what settings are controlled in user profiles. choose 3
+	a. assigned apps
+	b. field level security
+	c. record types
+	d. page layouts
+	e. locale settings
+	
+**in what cases does validation is applied. choose 3
+	a. in workflow process
+	b. when field is deleted
+	c. when field is edited
+	d. web-to-lead ** 
+	e. in import wizard
+	
+** sending an email to users and users' country will determine what language is used.
+	a. create email templates per language and send using workflow rule
+	b. create email templates per language and send using assignment rule
+	c. create single email template and send email through translation workbench that will determine the language that will be used **
+	d. create email template and send using escalation rule
+	
+What is the use of AppExchange. choose 2 
+	a. for an administrator to select pre-built reports and dashboards **
+	b. 
+	c.
+	d. support agents can use salesforce console on service app. **
+	
+What is the purpose of Knowledge? choose 2
+	a. to give solution to case **
+	b. to give answers
+	c. to give 
+	d.
+	
+**What accounts are synced to salesforce classic lite?choose 2 
+	a. existing accounts **
+	b. newly edited accounts **
+	c. newly created accounts **
+	d. accounts that are selected using sync button.
+	
+	
+What has one to may relationship with Account?choose 3
+	a. contacts
+	b. opportunities
+	c. cases
+	d. leads
+	
+if a user has a log in hour restriction of 8:00 am to 5:00 pm and he logged in at 4:38pm and its now 5:01 pm, what will happen?
+	a. user can continue working but cannot open new sessions
+	b. user will be logged out and unsaved data will be saved
+	c. user will be logged out and unsaved data will be lost
+	d. user can continue working and can open new sessions
+	
+what access can be given using sharing rules? choose 2
+	a. read/write/transfer
+	b. read only
+	c. read/write
+	d. read/write/edit/delete
+	
+**what kind of chart groups summarize totals in different 'levels'?choose 2
+	a. grouped line charts
+	b. donut charts
+	c. funnels ** meron pang nakaattach na description sakanya i just cant remember
+	d. bar charts ** meron pang nakaattach na description sakanya i just cant remember
+	
+**sales users has no access to opportunities but admin wants sales users to have access so that they can help X users. what can an sys ad do?
+	a. add sales users to opportunity team
+	b. add sales users to public groups
+	**other choices forgotten
+	
+**admin added 'blah blah' value to opportunity stage picklist but users cant see it. how can adm address this?
+	a. make sure value is active
+	b. make sure value is added appropriate record types
+	c. record type has no page layout refered
+	d. *******
+	
+**in lead conversion what happen to converted fields?choose 2
+	a. standard lead fields will be mapped to standard opportunity, accounts, contact fields
+	b. custom lead fields will be mapped to standard opportunity, accounts, contact fields
+	c. custom lead fields will be mapped to custom fields
+	d. **forgot the last choice
+	
+-Chatter
+3 components -  choose from event, notes, feedback, recommendations
+ 
+-
+choose from library, notes, chatter files,documents
+ 
+-
+IT and Sales Team - same profile but the issue is that Sales Team should only be the ones who can view objects under car tracking - what to do?
+Create new profile to sales team
+ 
+- Giving visibility on one opportunity
+manually share records to support agent(?)
+ 
+- opp record enters a time dep wf criteria with an end date of july 30, time dep wf ends on july 23, what happens if changes are made to record before july 23 and criteria are not met
+time dependent workflow will be pulled out from queue
+ 
+- what will be the default currency if
+corporate currency
+ 
+- Which could be setup on profiles
+locale, assigned apps, fls, featured licenses, roles
+ 
+- Which of the ff are ex of featured licenses
+opp user, console user, service console user, ?
+ 
+-
+record type, page layout, support process/setting
+ 
+- process visualizer
+view approval process diagram, applicable in approval process...
+ 
+- import wizard
+once there is a failing record, it will stop on working
+ 
+- one to many relt to account
+contacts, leads, oppportunities
+ 
+- account contact master detail
+a related list should appear on contact in order to require it to have  an account upon saving
+ 
+- survey and account record question
+there should be a survey related list on account
+survey should have a lookup field for account
+ 
+- picklist question
+validate if picklist limit of 10 values is not exceeded
+ 
+- wf
+everytime a record is deleted
+everytime a record is created or updated
+everytime a record is...
+ 
+- sharing rules
+purpose of which is to extend access
+ 
+-reports and dashboards
+ 
+schedule issue
+- schedule at diff timezones
+-view and delete scheduled refresh, 2 more choices
+ 
+metric and gauge - summary rows
+ 
+	
+
+
+	
+
+
+
+	
+	

@@ -1,0 +1,138 @@
+Web-to-Lead : can create up to 500 new leads per day
+
+Web-to-Case : can create up to 5000 new cases per day
+
+Summary formulas: 
+	-up to 5 per report
+	-cant reference other summary formulas but can reference formula fields
+	-only display on summary rows, not detail record rows
+
+
+to set up web-to-case set up first auto response rule. 
+
+web-to-case: customize > self service
+
+Enhanced profile list views > enable in UI Settings in setup
+
+
+Deactivating user may fail when:
+	-assigned leads or cases as part of an assignment rule
+	-sole recipient of a workflow email alert
+	-default workflow user
+	-default lead owner
+	-default case owner
+
+
+Chart Types
+1. Bar Charts - Horizontal(to compare larger groups), Vertical (to compare fewer groups or grouping by a date field)
+2. Line Charts - Use when grouping by date field
+3. Pie/Donut Charts - use to compare share of grand total
+4. Funnel Charts - use to show proportions among grouping
+5. Scatter Charts - plot 2 summary fields against one another
+
+
+Dashboards - can have 20 components per dashboard
+	   -table and chart components display data from the summary row of report
+	   -gauge and metric components display data from the grand total row at the buttom of report
+
+Dashboard Components
+	1. Table - you can sort rows by value, great for creating leaderboards 
+	2. Chart - displays data on rows
+	3. Gauge - displays grand total from the buttom. can specify breakpoints. great for displaying a target and where you are in realtion with that target.
+	4. Metric - displays grand total from the buttom of the source report with a label. making key business metrics at a glance.
+
+
+Dynamic dashboards has security settings wrt the logged-in user.
+Non dynamic dashboards follows the security settings of the running user assigned.
+
+
+Import Wizard
+ - can import accounts, contacts, leads, custom objects, and solutions
+ - file size < 100MB , record in a file < 400KB
+
+
+The web to case feature has more template options than web to lead
+
+Steps required when enabling escalate to case feature:
+	1. make sure trusted community members have the permission "Create" on the Case object
+	2. edit each Case pagelayout to include question field
+	3. set field-level security on the question field, making it visible to trusted community members.
+	**similar questions cannot emerge
+
+Data cleansing is the process of creating format consistency and removing bad data.
+
+What are the limits for the Account + Contacts import wizard per session??
+	-500 records for end users. 50k records for administrator importing for multiple users.
+
+Data loader uses SOQL to construct queries
+
+Best practices for naming conventions: no spaces and no punctuation
+
+How many fields can be enabled for tracking custom object? 20
+
+Matrix Reports cannot be used as a source report for the Analytical Snap Shot.
+
+How many custom fields can be created on an object in an Unlimited Edition? 800
+
+How many custom fields can be created on an object in an Developer Edition? 500
+
+How many Roll Up Summary fields can be created in the enterprise edition on a custom object? 20
+
+Account object does not support business processes.
+
+We can created Managed Packaged in - Developer Edition
+
+Types of Sharing Rules:
+	-account sharing rules
+	-account teritory sharing rules
+	-Campaign sharing rules
+	-Case sharing rules
+	-Contact sharing rules
+	-Custom object sharing rules
+	-Lead sharing rules
+	-Opportunity sharing rules
+	-Usersharing rules
+
+What actions are possible with a workflow task?
+	- A task can be reused in multiple workflow rules
+	- A task can be tracked in activity history
+
+To enable conditional highlighting, your report must contain at least one summart field or custom summary formula
+It can be used on Matrix and Summary reports
+
+Which data can be higlighted in a report using conditional higlighting?
+ - Grand totals
+ - Summarized totals
+ - Data fields
+
+Which shcedule type can be defined for a product. 
+	- Revenue
+	- Quantity
+
+What tasks can a delegated administrator perform?
+ - Creating and editing users and resetting passwords for users in specified roles and all subordinate roles,
+   including setting quotas, creating default opportunity teams, and creating personal groups for those users.
+ - Unlocking users
+ - Assigning users to specified profiles
+ - Logging in as a user who has granted login access to their admin
+ - Managing custom objects created by an administrator
+
+ACLCS
+
+VAWE (validation rule, assignment rule, workflow rule, escalation rule)
+
+Criteria-based sharing rules can be created on COCAC
+ - Cases
+ - Opportunities
+ - COntacts
+ - Accounts
+ - Custom objects
+
+	
+
+
+
+
+
+
+
